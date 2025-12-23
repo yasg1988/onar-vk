@@ -105,7 +105,7 @@ export function Chat({ vkUser, userProfile, onResetProfile }: ChatProps) {
           ))}
           {isLoading && (
             <Div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-              <Spinner size="small" />
+              <Spinner size="s" />
             </Div>
           )}
           <div ref={messagesEndRef} />
